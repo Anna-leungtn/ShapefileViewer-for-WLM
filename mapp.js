@@ -16,7 +16,7 @@
 
 // All the L.map() 
 // create a map in the 'map' div
-var map = L.map('map').setView([22.377846395558592, 114.27096591182394], 16);
+var map = L.map('map').setView([22.3527234,114.1394], 12);
 
 display_map();
 
@@ -45,7 +45,7 @@ function click_listener() {
             "color": "#002fa7",
             "fillColor": "#8ab9f1",
             "weight": 3,
-            "fillOpacity": 100
+            "fillOpacity": 0.7
         };
 
         dbf_path = file.name.substr(0, file.name.lastIndexOf(".")) + ".dbf";  
