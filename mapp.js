@@ -1,12 +1,12 @@
 /*
- * Author : Chris gor
- * Application Name: 
- * Creation Date :
- * Contributions : 
- *      1. allow Visualization of shapefile 
- * Genius : Chris gor
- * small potato : Anna and Rody
+ * Author : Chris Yip
+ * Helper : Anna Leung & Rody Tsang
  * Technical Advisor : Chris Yip
+ * Application Name: ShapefileViewer for WLM
+ * Creation Date : 15/08/2023
+ * Contributions : 
+ *      1. Allow Visualization of shapefile
+ *      2. Comparison of different shapefiles
  * -------
  * -------
  *          
@@ -35,6 +35,7 @@ function click_listener() {
 
     var randomColor1 = '#'+Math.floor(Math.random()*16777215).toString(16);
     var randomColor2 = '#'+Math.floor(Math.random()*16777215).toString(16);
+
 
     // handle the selected file 
     input.onchange = e => { 
