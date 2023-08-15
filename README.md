@@ -1,4 +1,4 @@
-# ShapefileViewer-for-WSD
+# ShapefileViewer-for-WLM
 ### Instruction of Shapefile Viewer
 1. Download the zip file from Github by clicking **"Code"** and **"Download ZIP"**.
 2. Unzip the **"ShapefileVier-for-WSD.zip"** file.
