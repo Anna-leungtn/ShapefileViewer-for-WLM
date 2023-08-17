@@ -33,10 +33,6 @@ function click_listener() {
     var input = document.createElement('input');
     input.type = 'file';
 
-    var randomColor1 = '#'+Math.floor(Math.random()*16777215).toString(16);
-    var randomColor2 = '#'+Math.floor(Math.random()*16777215).toString(16);
-
-
     // handle the selected file 
     input.onchange = e => { 
         // getting a hold of the file reference
@@ -46,8 +42,8 @@ function click_listener() {
         var reader = new FileReader();
         reader.readAsArrayBuffer(file);
         var myStyle = { // Define your style object
-            "color": randomColor1,
-            "fillColor": randomColor2,
+            "color": "#002fa7",
+            "fillColor": "#8ab9f1",
             "weight": 3,
             "fillOpacity": 0.7
         };
@@ -85,8 +81,6 @@ function click_listener() {
                                 }).addTo(map)
 
                                 return source.read().then(log);
-                                return randomColor1;
-                                return randomColor2;
                             }                                    
                             
                         }))
